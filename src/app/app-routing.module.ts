@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import * as fromComponents from './shared/components';
+import * as fromComponents from '@shared/components';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
