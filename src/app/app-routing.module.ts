@@ -5,7 +5,7 @@ import * as fromComponents from '@shared/components';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: fromComponents.HomeComponent },
+  { path: 'home', component: fromComponents.AboutComponent },
   { path: 'timesheet', component: fromComponents.TimeSheetComponent },
   { path: 'loan-ledger', component: fromComponents.LoanLedgerComponent },
   { path: 'leave-ledger', component: fromComponents.LeaveLedgerComponent },

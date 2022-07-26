@@ -1,3 +1,16 @@
+.home-header {
+  display: flex;
+  align-content: space-evenly;
+
+  .profile-container, .btn-wrapper {
+    width: 50%;
+    display: flex;
+  }
+
+  .btn-wrapper > .edit-btn {
+    margin: auto 0;
+  }
+}
 
 .body {
   display: flex;

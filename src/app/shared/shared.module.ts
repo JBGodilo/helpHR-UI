@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import * as fromComponents from './components';
+import { ProfileModule } from './components/profiles/profile.module';
 
 
 
@@ -11,10 +12,12 @@ import * as fromComponents from './components';
     fromComponents.LoanLedgerComponent, 
     fromComponents.LeaveLedgerComponent, 
     fromComponents.PayslipsComponent,
-    fromComponents.ContentHeaderComponent
+    fromComponents.ContentHeaderComponent,
+    fromComponents.AboutComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ProfileModule
   ],
   exports: [
     fromComponents.HomeComponent, 
@@ -22,7 +25,8 @@ import * as fromComponents from './components';
     fromComponents.LoanLedgerComponent, 
     fromComponents.LeaveLedgerComponent, 
     fromComponents.PayslipsComponent,
-    fromComponents.ContentHeaderComponent
+    fromComponents.ContentHeaderComponent,
+    fromComponents.AboutComponent,
   ],
 })
 export class SharedModule { }

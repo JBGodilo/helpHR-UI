@@ -4,6 +4,7 @@ import { LoanLedgerComponent } from './loan-ledger/loan-ledger.component';
 import { LeaveLedgerComponent } from './leave-ledger/leave-ledger.component';
 import { PayslipsComponent } from './payslips/payslips.component';
 import { ContentHeaderComponent } from './content-header/content-header.component';
+import { AboutComponent } from './about/about.component';
 
 export const components: any[] = [
   HomeComponent,
@@ -11,7 +12,8 @@ export const components: any[] = [
   LoanLedgerComponent,
   LeaveLedgerComponent,
   PayslipsComponent,
-  ContentHeaderComponent
+  ContentHeaderComponent,
+  AboutComponent
 ]
 
 export * from './home/home.component';
@@ -20,3 +22,4 @@ export * from './loan-ledger/loan-ledger.component';
 export * from './leave-ledger/leave-ledger.component';
 export * from './payslips/payslips.component';
 export * from './content-header/content-header.component';
+export * from './about/about.component';
